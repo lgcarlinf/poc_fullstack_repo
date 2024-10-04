@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+    "target": "esnext",
+    "module": "nodenext",
+    "lib": ["dom", "es6", "esnext", "esnext.asynciterable"],
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "moduleResolution": "nodenext",
+    },
+    "exclude": [
+      "node_modules"
+    ],
+    "include": [
+      "src/**/*.ts"
+    ]
+  }
