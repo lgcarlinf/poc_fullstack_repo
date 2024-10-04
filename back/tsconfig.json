@@ -1,12 +1,13 @@
 {
     "compilerOptions": {
-    "target": "esnext",
-    "module": "nodenext",
-    "lib": ["dom", "es6", "esnext", "esnext.asynciterable"],
-    "skipLibCheck": true,
-    "sourceMap": true,
-    "outDir": "./dist",
-    "moduleResolution": "nodenext",
+      "target": "ES2020", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+      "module": "commonjs", /* Specify what module code is generated. */
+      "esModuleInterop": true, /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+      "resolveJsonModule": true,
+      "noImplicitAny": true,
+      "moduleResolution": "Node",
+      "sourceMap": true,
+      "outDir": "./dist"
     },
     "exclude": [
       "node_modules"
