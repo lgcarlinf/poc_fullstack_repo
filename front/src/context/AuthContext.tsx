@@ -5,7 +5,7 @@ import { ApiService, AxiosApiService } from '../services/apiService';
 
 interface User {
     id: string;
-    nombre: string;
+    name: string;
     email: string;
     photoUrl?: string;
     idCuenta: number;
